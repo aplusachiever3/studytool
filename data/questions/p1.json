@@ -1,0 +1,72 @@
+{
+  "grade": "P1",
+  "version": "1.0.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P1-VOC-0001",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Everyday words",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word names an animal?",
+      "options": [
+        "Apple",
+        "Cat",
+        "Chair"
+      ],
+      "answer_index": 1,
+      "explanation": "A cat is an animal. An apple is a fruit and a chair is furniture.",
+      "tags": [
+        "word_meaning",
+        "categories"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P1-GRA-0001",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Be verbs",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "I am happy.",
+        "I is happy.",
+        "I are happy."
+      ],
+      "answer_index": 0,
+      "explanation": "Use “am” with the subject “I”.",
+      "tags": [
+        "sentence_structure",
+        "be_verbs"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P1-REA-0001",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Explicit details",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Mia has a red ball. She plays with it in the park. What colour is Mia’s ball?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green"
+      ],
+      "answer_index": 1,
+      "explanation": "The text states that Mia has a red ball.",
+      "tags": [
+        "retrieve_information"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
