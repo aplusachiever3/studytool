@@ -1,0 +1,71 @@
+{
+  "grade": "P5",
+  "version": "1.0.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P5-VOC-0001",
+      "grade": "P5",
+      "strand": "Vocabulary",
+      "topic": "Precise word choice",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The witness gave a ___ account, including every small detail.",
+      "options": [
+        "vague",
+        "detailed",
+        "careless"
+      ],
+      "answer_index": 1,
+      "explanation": "“Detailed” means including many facts or particulars.",
+      "tags": [
+        "word_choice"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P5-GRA-0001",
+      "grade": "P5",
+      "strand": "Grammar",
+      "topic": "Conditional sentences",
+      "type": "mcq",
+      "difficulty": 4,
+      "prompt": "If I ___ about the road closure, I would have taken another route.",
+      "options": [
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "answer_index": 1,
+      "explanation": "This is a third conditional: If + past perfect, would have + past participle.",
+      "tags": [
+        "conditionals"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P5-REA-0001",
+      "grade": "P5",
+      "strand": "Reading",
+      "topic": "Character inference",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Kai practised quietly each day instead of boasting about his skills. What can you infer?",
+      "options": [
+        "He works to improve.",
+        "He dislikes every sport.",
+        "He wants others to do all the work."
+      ],
+      "answer_index": 0,
+      "explanation": "Regular practice suggests that Kai focuses on improving his skills.",
+      "tags": [
+        "inference",
+        "character"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
