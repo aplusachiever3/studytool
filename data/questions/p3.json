@@ -1,0 +1,70 @@
+{
+  "grade": "P3",
+  "version": "1.0.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P3-VOC-0001",
+      "grade": "P3",
+      "strand": "Vocabulary",
+      "topic": "Word meaning in context",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "The glass slipped and ___ on the floor.",
+      "options": [
+        "shattered",
+        "whispered",
+        "wandered"
+      ],
+      "answer_index": 0,
+      "explanation": "Glass can shatter when it falls and breaks into pieces.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P3-GRA-0001",
+      "grade": "P3",
+      "strand": "Grammar",
+      "topic": "Subject-verb agreement",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Neither of the boys ___ absent today.",
+      "options": [
+        "are",
+        "is",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "“Neither” is treated as singular in this sentence, so use “is”.",
+      "tags": [
+        "agreement"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P3-REA-0001",
+      "grade": "P3",
+      "strand": "Reading",
+      "topic": "Inference from clues",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Lena packed an umbrella. At noon, dark clouds gathered and rain began. Why was the umbrella useful?",
+      "options": [
+        "It protected Lena from rain.",
+        "It was a ruler.",
+        "It made clouds disappear."
+      ],
+      "answer_index": 0,
+      "explanation": "An umbrella is useful because it helps keep a person dry in the rain.",
+      "tags": [
+        "inference"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
