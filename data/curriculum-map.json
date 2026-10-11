@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0.0",
+  "project": "APLUS ACHIEVER English Adventure",
+  "alignment_note": "Planning map for an independent learning resource. Review against the current MOE Primary English Language Syllabus before treating any mapping as final. This is not an official MOE document.",
+  "grades": {
+    "P1": {
+      "stage": "Foundation",
+      "focus": [
+        "Listening and speaking routines",
+        "Phonics and sound-letter links",
+        "Everyday vocabulary",
+        "Simple sentences",
+        "Capital letters and full stops",
+        "Short texts and picture-supported comprehension"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Reading",
+        "Writing",
+        "Listening",
+        "Speaking"
+      ],
+      "sequence": [
+        "oral_language",
+        "phonics",
+        "word_recognition",
+        "simple_sentences",
+        "picture_supported_reading"
+      ]
+    },
+    "P2": {
+      "stage": "Word Builder",
+      "focus": [
+        "High-frequency and topic vocabulary",
+        "Sentence construction",
+        "Basic past and present time references",
+        "Punctuation and spelling",
+        "Short narrative and informational texts",
+        "Sequencing and explicit details"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Reading",
+        "Writing",
+        "Listening",
+        "Speaking"
+      ],
+      "sequence": [
+        "word_families",
+        "sentence_patterns",
+        "basic_tenses",
+        "punctuation",
+        "short_text_comprehension"
+      ]
+    },
+    "P3": {
+      "stage": "Skill Explorer",
+      "focus": [
+        "Word meaning in context",
+        "Parts of speech and agreement",
+        "Common tenses and connectors",
+        "Paragraph-level reading",
+        "Inference from clear clues",
+        "Writing connected sentences"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Reading",
+        "Writing",
+        "Listening",
+        "Speaking"
+      ],
+      "sequence": [
+        "context_clues",
+        "parts_of_speech",
+        "agreement_and_tenses",
+        "paragraph_reading",
+        "guided_paragraphs"
+      ]
+    },
+    "P4": {
+      "stage": "Reading Pro",
+      "focus": [
+        "Precise vocabulary and collocations",
+        "Tense consistency and sentence structures",
+        "Comprehension across narrative and information texts",
+        "Inference and evidence selection",
+        "Paragraph development and cohesion",
+        "Editing for accuracy"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Reading",
+        "Writing",
+        "Listening",
+        "Speaking"
+      ],
+      "sequence": [
+        "word_precision",
+        "sentence_combinations",
+        "text_structure",
+        "inference",
+        "paragraph_cohesion",
+        "editing"
+      ]
+    },
+    "P5": {
+      "stage": "Writing Hero",
+      "focus": [
+        "Nuanced vocabulary and common expressions",
+        "Complex grammar and transformations",
+        "Inference, writer's purpose and contextual clues",
+        "Cloze and integrated language use",
+        "Narrative development and character response",
+        "Planning, revising and editing"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Reading",
+        "Cloze",
+        "Writing",
+        "Listening",
+        "Speaking"
+      ],
+      "sequence": [
+        "advanced_context_vocabulary",
+        "complex_sentences",
+        "inference_and_purpose",
+        "cloze_strategy",
+        "narrative_development",
+        "revision"
+      ]
+    },
+    "P6": {
+      "stage": "PSLE Quest",
+      "focus": [
+        "Consolidation of primary-level language skills",
+        "Grammar and vocabulary in context",
+        "Cloze and comprehension strategies",
+        "Text evidence and inference",
+        "Situational Writing: purpose, audience and format",
+        "Continuous Writing: planning, development and editing",
+        "Timed practice and reflection"
+      ],
+      "skills": [
+        "Vocabulary",
+        "Grammar",
+        "Cloze",
+        "Reading",
+        "Situational Writing",
+        "Continuous Writing",
+        "Listening",
+        "Oral Communication"
+      ],
+      "sequence": [
+        "diagnostic_review",
+        "language_application",
+        "cloze_and_comprehension",
+        "situational_writing",
+        "continuous_writing",
+        "timed_practice"
+      ]
+    }
+  },
+  "cross_grade_strands": [
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar and Language Use",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "Reading and Comprehension",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "Writing",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "id": "listening_viewing",
+      "name": "Listening and Viewing",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "id": "speaking_representing",
+      "name": "Speaking and Representing",
+      "grades": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
+    }
+  ],
+  "psle_note": "P6 practice may use PSLE-informed formats, but all newly authored items must be labelled original practice. Do not label them official SEAB questions."
+}
