@@ -1,0 +1,71 @@
+{
+  "grade": "P4",
+  "version": "1.0.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P4-VOC-0001",
+      "grade": "P4",
+      "strand": "Vocabulary",
+      "topic": "Meaning in context",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "A path was slippery after rain. What does “slippery” suggest?",
+      "options": [
+        "Easy to slide on",
+        "Covered in flowers",
+        "Very noisy"
+      ],
+      "answer_index": 0,
+      "explanation": "A slippery surface can cause people or objects to slide.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P4-GRA-0001",
+      "grade": "P4",
+      "strand": "Grammar",
+      "topic": "Past perfect tense",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "By the time we reached the station, the train ___.",
+      "options": [
+        "leaves",
+        "had left",
+        "has leave"
+      ],
+      "answer_index": 1,
+      "explanation": "The train left before we reached the station, so the past perfect shows the earlier event.",
+      "tags": [
+        "tenses"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P4-REA-0001",
+      "grade": "P4",
+      "strand": "Reading",
+      "topic": "Cause and purpose",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Butterflies visited the school garden because pupils planted flowers rich in nectar. Why did they visit?",
+      "options": [
+        "The flowers provided food.",
+        "The garden was noisy.",
+        "The fence was painted."
+      ],
+      "answer_index": 0,
+      "explanation": "Nectar in flowers provides food for butterflies.",
+      "tags": [
+        "cause_effect",
+        "retrieve_information"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
