@@ -1,0 +1,71 @@
+{
+  "grade": "P2",
+  "version": "1.0.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P2-VOC-0001",
+      "grade": "P2",
+      "strand": "Vocabulary",
+      "topic": "Word meaning",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the closest meaning of “tiny”.",
+      "options": [
+        "Very small",
+        "Very loud",
+        "Very late"
+      ],
+      "answer_index": 0,
+      "explanation": "“Tiny” means very small.",
+      "tags": [
+        "synonyms",
+        "word_meaning"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P2-GRA-0001",
+      "grade": "P2",
+      "strand": "Grammar",
+      "topic": "Simple past tense",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Yesterday, we ___ to the library.",
+      "options": [
+        "go",
+        "goes",
+        "went"
+      ],
+      "answer_index": 2,
+      "explanation": "“Yesterday” indicates past time. The past tense of “go” is “went”.",
+      "tags": [
+        "tenses"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P2-REA-0001",
+      "grade": "P2",
+      "strand": "Reading",
+      "topic": "Cause and effect",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Sam watered a plant every morning. After a week, two new leaves appeared. What helped the plant?",
+      "options": [
+        "Watering it",
+        "Moving a book",
+        "Closing a window"
+      ],
+      "answer_index": 0,
+      "explanation": "Sam watered the plant every morning, which helped it grow.",
+      "tags": [
+        "cause_effect"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
