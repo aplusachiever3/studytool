@@ -1,0 +1,73 @@
+{
+  "grade": "P6",
+  "version": "1.0.0",
+  "source_note": "Original PSLE-informed demonstration practice; not official MOE/SEAB questions.",
+  "questions": [
+    {
+      "id": "P6-VOC-0001",
+      "grade": "P6",
+      "strand": "Vocabulary",
+      "topic": "Meaning in context",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Despite several setbacks, the team remained ___ and continued working towards its goal.",
+      "options": [
+        "determined",
+        "indifferent",
+        "fragile"
+      ],
+      "answer_index": 0,
+      "explanation": "“Determined” means firmly committed to achieving a goal.",
+      "tags": [
+        "context_clues",
+        "word_choice"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P6-GRA-0001",
+      "grade": "P6",
+      "strand": "Grammar",
+      "topic": "Subject-verb agreement",
+      "type": "mcq",
+      "difficulty": 4,
+      "prompt": "The collection of old coins, together with the letters, ___ kept in a safe.",
+      "options": [
+        "are",
+        "were",
+        "is"
+      ],
+      "answer_index": 2,
+      "explanation": "The main subject is “collection”, which is singular. The phrase “together with the letters” does not change the subject.",
+      "tags": [
+        "agreement",
+        "sentence_analysis"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    },
+    {
+      "id": "P6-REA-0001",
+      "grade": "P6",
+      "strand": "Reading",
+      "topic": "Inference and purpose",
+      "type": "mcq",
+      "difficulty": 4,
+      "prompt": "Residents supported a cycling path because it separated cyclists from heavy traffic. What was the main benefit they valued?",
+      "options": [
+        "A shorter journey",
+        "Improved cyclist safety",
+        "More traffic"
+      ],
+      "answer_index": 1,
+      "explanation": "Separating cyclists from heavy traffic improves safety, which is the benefit described.",
+      "tags": [
+        "inference",
+        "evidence"
+      ],
+      "source_type": "original",
+      "review_status": "sample"
+    }
+  ]
+}
