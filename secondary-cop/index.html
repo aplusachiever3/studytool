@@ -69,18 +69,18 @@ function scoreNumber(v){const m=String(v||"").match(/\d+/);return m?Number(m[0])
 function display(v){if(!v||v==="—")return '<span class="cop na">N/A</span>';if(v==="DSA")return '<span class="cop dsa">DSA</span>';return '<span class="cop">'+escapeHTML(v)+'</span>'}
 function escapeHTML(v){return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function populateAreas(){[...new Set(schools.map(s=>s.area))].sort().forEach(a=>{const o=document.createElement("option");o.value=a;o.textContent=a;$("area").appendChild(o)})}
-function currentValue(s){return s[$("pathway").value][4-Number($("year").value)]}
+function currentValue(s){return s[$("pathway").value][Number($("year").value)-2022]}
 function render(){
  const q=$("search").value.trim().toLowerCase(),area=$("area").value,year=$("year").value,path=$("pathway").value,score=Number($("myScore").value)||null;
  $("currentHead").textContent=year+" "+path.toUpperCase()+" COP";
  let list=schools.filter(s=>(!q||(s.name+" "+s.area).toLowerCase().includes(q))&&(!area||s.area===area));
  const sort=$("sort").value;
- list.sort((a,b)=>{if(sort==="area")return a.area.localeCompare(b.area)||a.name.localeCompare(b.name);if(sort==="scoreAsc"||sort==="scoreDesc"){const av=scoreNumber(a[path][4-Number(year)]),bv=scoreNumber(b[path][4-Number(year)]);if(av===null)return 1;if(bv===null)return -1;return sort==="scoreAsc"?av-bv:bv-av}return a.name.localeCompare(b.name)});
+ list.sort((a,b)=>{if(sort==="area")return a.area.localeCompare(b.area)||a.name.localeCompare(b.name);if(sort==="scoreAsc"||sort==="scoreDesc"){const av=scoreNumber(a[path][Number(year)-2022]),bv=scoreNumber(b[path][Number(year)-2022]);if(av===null)return 1;if(bv===null)return -1;return sort==="scoreAsc"?av-bv:bv-av}return a.name.localeCompare(b.name)});
  $("resultCount").textContent=list.length+" schools found · "+path.toUpperCase()+" · "+year;
  const tbody=$("rows");tbody.innerHTML="";
  if(!list.length){tbody.innerHTML='<tr><td colspan="8" class="empty">No schools match your search. Try another name or area.</td></tr>';return}
  list.forEach(s=>{
-  const v=s[path][4-Number(year)],n=scoreNumber(v),isSaved=saved.has(s.id),isSelected=selected.has(s.id);
+  const v=s[path][Number(year)-2022],n=scoreNumber(v),isSaved=saved.has(s.id),isSelected=selected.has(s.id);
   let compareMark="";if(score&&n!==null)compareMark=score<=n?"<small style='display:block;color:#13816f;font-weight:700'>At / below historical COP</small>":"<small style='display:block;color:#a66b24;font-weight:700'>Above historical COP</small>";
   const tr=document.createElement("tr");
   tr.innerHTML='<td><button class="star '+(isSaved?"on":"")+'" data-save="'+s.id+'" aria-label="Save school">'+(isSaved?"★":"☆")+'</button><br><input type="checkbox" data-compare="'+s.id+'" '+(isSelected?"checked":"")+' aria-label="Select for comparison"></td>'+
@@ -109,7 +109,7 @@ function showComparison(){
  const path=$("pathway").value,year=$("year").value;
  const items=[...selected].map(id=>schools.find(s=>s.id===id)).filter(Boolean);
  $("modalTitle").textContent="School comparison";$("modalSub").textContent=path.toUpperCase()+" · Selected year "+year;
- $("modalBody").innerHTML='<div class="compare-cards">'+items.map(s=>{const v=s[path][4-Number(year)];return '<div class="compare-card"><h3>'+escapeHTML(s.name)+'</h3><p>'+escapeHTML(s.area)+'</p><strong>'+escapeHTML(v||"N/A")+'</strong><p>'+year+' '+path.toUpperCase()+' COP</p></div>'}).join("")+'</div><div class="table-wrap"><table class="history"><thead><tr><th>School</th>'+["2022","2023","2024","2025"].map(y=>'<th>'+y+'</th>').join("")+'</tr></thead><tbody>'+items.map(s=>'<tr><td>'+escapeHTML(s.name)+'</td>'+s[path].map(v=>'<td>'+escapeHTML(v||"N/A")+'</td>').join("")+'</tr>').join("")+'</tbody></table></div>';
+ $("modalBody").innerHTML='<div class="compare-cards">'+items.map(s=>{const v=s[path][Number(year)-2022];return '<div class="compare-card"><h3>'+escapeHTML(s.name)+'</h3><p>'+escapeHTML(s.area)+'</p><strong>'+escapeHTML(v||"N/A")+'</strong><p>'+year+' '+path.toUpperCase()+' COP</p></div>'}).join("")+'</div><div class="table-wrap"><table class="history"><thead><tr><th>School</th>'+["2022","2023","2024","2025"].map(y=>'<th>'+y+'</th>').join("")+'</tr></thead><tbody>'+items.map(s=>'<tr><td>'+escapeHTML(s.name)+'</td>'+s[path].map(v=>'<td>'+escapeHTML(v||"N/A")+'</td>').join("")+'</tr>').join("")+'</tbody></table></div>';
  $("modal").classList.add("show");
 }
 async function init(){
