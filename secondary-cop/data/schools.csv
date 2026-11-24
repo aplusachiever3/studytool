@@ -5,7 +5,7 @@ id|name|area|pg3_2022|pg3_2023|pg3_2024|pg3_2025|ip_2022|ip_2023|ip_2024|ip_2025
 4|Ang Mo Kio Secondary School|Ang Mo Kio|18|16|15|16||||
 5|Anglican High School|Bedok|14P|12M|11M|12||||
 6|Anglo-Chinese School (Barker Road)|Novena|10|10|9|9||||
-7|Anglo-Chinese School (Independent) (Secondary)|Queenstown|8|7|7|8|7|7|7|6
+7|Anglo-Chinese School (Independent) (Secondary)|Queenstown|8|7|7|8|7|7|7|7
 8|Assumption English School|Bukit Panjang|22|22|22|22||||
 9|Assumption Pathway School|Bukit Panjang||||||||
 10|Bartley Secondary School|Toa Payoh|22|22|22|21||||
@@ -24,11 +24,11 @@ id|name|area|pg3_2022|pg3_2023|pg3_2024|pg3_2025|ip_2022|ip_2023|ip_2024|ip_2025
 23|CHIJ Katong Convent|Marine Parade|16|15|13|14||||
 24|CHIJ Secondary (Toa Payoh)|Toa Payoh|11|10|9|10||||
 25|CHIJ St. Joseph's Convent|Seng Kang|14|14|13|14||||
-26|CHIJ St. Nicholas Girls' School (Secondary)|Ang Mo Kio|8|9|8M†|8M|7P|7M|7M|7D
+26|CHIJ St. Nicholas Girls' School (Secondary)|Ang Mo Kio|8|9|8M†|8M|7P|7M|7M|7M
 27|CHIJ St. Theresa's Convent|Bukit Merah|15|14|12|13||||
 28|Canberra Secondary School|Sembawang|22|22|22|22||||
 29|Catholic High School (Secondary)|Bishan|9M|9M|8P†|8M|8M|8M|8M|7M
-30|Cedar Girls' Secondary School|Toa Payoh|9|9|9|9|8|8|8|7
+30|Cedar Girls' Secondary School|Toa Payoh|9|9|9|9|8|8|8|9
 31|Changkat Changi Secondary School|Tampines|22|22|22|22||||
 32|Christ Church Secondary School|Woodlands|18|18|17|17||||
 33|Chua Chu Kang Secondary School|Choa Chu Kang|21|20|20|20||||
@@ -42,7 +42,7 @@ id|name|area|pg3_2022|pg3_2023|pg3_2024|pg3_2025|ip_2022|ip_2023|ip_2024|ip_2025
 41|Damai Secondary School|Bedok|22|22|22|22||||
 42|Deyi Secondary School|Ang Mo Kio|18|17|16|16||||
 43|Dunearn Secondary School|Bukit Batok|22|22|22|22||||
-44|Dunman High School (Secondary)|Kallang|15|14|13|—|8D|8M|8M|7M
+44|Dunman High School (Secondary)|Kallang|15|14|13|—|8D|8M|8M|8M
 45|Dunman Secondary School|Tampines|15|14|13|14||||
 46|East Spring Secondary School|Tampines|22|22|22|22||||
 47|Edgefield Secondary School|Punggol|15|14|13|14||||
@@ -100,10 +100,10 @@ id|name|area|pg3_2022|pg3_2023|pg3_2024|pg3_2025|ip_2022|ip_2023|ip_2024|ip_2025
 99|Punggol Secondary School|Punggol|20|20|19|19||||
 100|Queenstown Secondary School|Queenstown|22|22|22|22||||
 101|Queensway Secondary School|Queenstown|18|17|16|17||||
-102|Raffles Girls' School (Secondary)|Toa Payoh|||||6|6|6|5
+102|Raffles Girls' School (Secondary)|Toa Payoh|||||6|6|6|6
 103|Raffles Institution (Secondary)|Bishan|||||6|6|6|6
 104|Regent Secondary School|Choa Chu Kang|22|22|22|22||||
-105|River Valley High School (Secondary)|Jurong West|||||9M|9M|9M|8M
+105|River Valley High School (Secondary)|Jurong West|||||9M|9M|9M|9M
 106|Riverside Secondary School|Woodlands|15|14|13|14||||
 107|School of Science and Technology, Singapore|Clementi||||||||
 108|School of the Arts, Singapore|Central||||||||
@@ -129,7 +129,7 @@ id|name|area|pg3_2022|pg3_2023|pg3_2024|pg3_2025|ip_2022|ip_2023|ip_2024|ip_2025
 128|Temasek Junior College (Secondary)|Tampines|||||8|9|8|8
 129|Temasek Secondary School|Bedok|13|12|11|11||||
 130|Unity Secondary School|Choa Chu Kang|20†|19|18|18||||
-131|Victoria School|Bedok|10|9|9|9|8|8|8|7
+131|Victoria School|Bedok|10|9|9|9|8|8|8|8
 132|West Spring Secondary School|Bukit Panjang|17|16|16|17||||
 133|Westwood Secondary School|Jurong West|22|22|22|22||||
 134|Whitley Secondary School|Bishan|22|22|22|22||||
