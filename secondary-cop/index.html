@@ -64,7 +64,7 @@ footer{background:#eaf0f3;padding:22px 0;color:#61717d;font-size:11px;line-heigh
 <div class="modal-bg" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><div class="modal-head"><div><h2 id="modalTitle">School details</h2><div class="modal-sub" id="modalSub"></div></div><button class="close" id="close" aria-label="Close">×</button></div><div id="modalBody"></div></div></div>
 <script>
 const YEARS=["2025","2024","2023","2022"];
-const DATA_URL="data/schools.csv?v=9e195bb6";
+const DATA_URL="data/schools.csv?v=be9c8f03";
 let schools=[],saved=new Set(JSON.parse(localStorage.getItem("aplusCopSaved")||"[]")),selected=new Set();
 const $=id=>document.getElementById(id);
 function parseCSV(text){
