@@ -33,7 +33,7 @@ footer{background:#eaf0f3;padding:22px 0;color:#61717d;font-size:11px;line-heigh
 <div class="section-head"><div><h2>School COP Search</h2><p>Search by school name, area, year or admission pathway.</p></div></div>
 <section class="panel">
 <div class="filters">
- <div class="field"><label for="search">SCHOOL NAME</label><input id="search" type="search" placeholder="e.g. Anderson, Raffles, CHIJ..."></div>
+ <div class="field"><label for="search">SCHOOL NAME</label><input id="search" type="search" placeholder="Type any part of a school name, e.g. Anderson or CHIJ"></div>
  <div class="field"><label for="area">AREA</label><select id="area"><option value="">All areas</option></select></div>
  <div class="field"><label for="year">COP YEAR</label><select id="year"><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option></select></div>
  <div class="field"><label for="pathway">PATHWAY</label><select id="pathway"><option value="pg3">PG3</option><option value="ip">IP</option></select></div>
@@ -65,15 +65,16 @@ function parseCSV(text){
   const p=line.split("|");return {id:Number(p[0]),name:p[1],area:p[2],pg3:p.slice(3,7),ip:p.slice(7,11)};
  });
 }
+function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g," ").trim().replace(/\s+/g," ")}
 function scoreNumber(v){const m=String(v||"").match(/\d+/);return m?Number(m[0]):null}
 function display(v){if(!v||v==="—")return '<span class="cop na">N/A</span>';if(v==="DSA")return '<span class="cop dsa">DSA</span>';return '<span class="cop">'+escapeHTML(v)+'</span>'}
 function escapeHTML(v){return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function populateAreas(){[...new Set(schools.map(s=>s.area))].sort().forEach(a=>{const o=document.createElement("option");o.value=a;o.textContent=a;$("area").appendChild(o)})}
 function currentValue(s){return s[$("pathway").value][Number($("year").value)-2022]}
 function render(){
- const q=$("search").value.trim().toLowerCase(),area=$("area").value,year=$("year").value,path=$("pathway").value,score=Number($("myScore").value)||null;
+ const q=normalizeSearch($("search").value),terms=q.split(" ").filter(Boolean),area=$("area").value,year=$("year").value,path=$("pathway").value,score=Number($("myScore").value)||null;
  $("currentHead").textContent=year+" "+path.toUpperCase()+" COP";
- let list=schools.filter(s=>(!q||(s.name+" "+s.area).toLowerCase().includes(q))&&(!area||s.area===area));
+ let list=schools.filter(s=>{const haystack=normalizeSearch(s.name+" "+s.area);return terms.every(term=>haystack.includes(term))&&(!area||s.area===area)});
  const sort=$("sort").value;
  list.sort((a,b)=>{if(sort==="area")return a.area.localeCompare(b.area)||a.name.localeCompare(b.name);if(sort==="scoreAsc"||sort==="scoreDesc"){const av=scoreNumber(a[path][Number(year)-2022]),bv=scoreNumber(b[path][Number(year)-2022]);if(av===null)return 1;if(bv===null)return -1;return sort==="scoreAsc"?av-bv:bv-av}return a.name.localeCompare(b.name)});
  $("resultCount").textContent=list.length+" schools found · "+path.toUpperCase()+" · "+year;
