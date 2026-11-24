@@ -85,7 +85,7 @@ function render(){
   const tr=document.createElement("tr");
   tr.innerHTML='<td><button class="star '+(isSaved?"on":"")+'" data-save="'+s.id+'" aria-label="Save school">'+(isSaved?"★":"☆")+'</button><br><input type="checkbox" data-compare="'+s.id+'" '+(isSelected?"checked":"")+' aria-label="Select for comparison"></td>'+
    '<td><div class="school">'+escapeHTML(s.name)+'</div></td><td class="area">'+escapeHTML(s.area)+'</td><td class="year-col">'+display(v)+compareMark+'</td>'+
-   YEARS.slice(1).map(y=>'<td class="year-col">'+display(s[path][4-Number(y)])+'</td>').join("")+
+   YEARS.slice(1).map(y=>'<td class="year-col">'+display(s[path][Number(y)-2022])+'</td>').join("")+
    '<td><button class="details" data-detail="'+s.id+'">View history</button></td>';
   tbody.appendChild(tr);
  });
