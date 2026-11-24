@@ -64,7 +64,7 @@ footer{background:#eaf0f3;padding:22px 0;color:#61717d;font-size:11px;line-heigh
 <div class="modal-bg" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><div class="modal-head"><div><h2 id="modalTitle">School details</h2><div class="modal-sub" id="modalSub"></div></div><button class="close" id="close" aria-label="Close">×</button></div><div id="modalBody"></div></div></div>
 <script>
 const YEARS=["2025","2024","2023","2022"];
-const DATA_URL="data/schools.csv";
+const DATA_URL="data/schools.csv?v=9e195bb6";
 let schools=[],saved=new Set(JSON.parse(localStorage.getItem("aplusCopSaved")||"[]")),selected=new Set();
 const $=id=>document.getElementById(id);
 function parseCSV(text){
@@ -121,7 +121,7 @@ function showComparison(){
  $("modal").classList.add("show");
 }
 async function init(){
- try{const r=await fetch(DATA_URL);if(!r.ok)throw new Error("HTTP "+r.status);schools=parseCSV(await r.text());if(schools.length!==147)console.warn("Expected 147 school records; loaded",schools.length);populateAreas();render()}
+ try{const r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);schools=parseCSV(await r.text());if(schools.length!==147)console.warn("Expected 147 school records; loaded",schools.length);populateAreas();render()}
  catch(e){$("resultCount").textContent="Could not load school data";$("rows").innerHTML='<tr><td colspan="8" class="empty">The data file could not be loaded. Please open this page through GitHub Pages or a local web server.</td></tr>';console.error(e)}
 }
 ["search","area","year","pathway","myScore","sort"].forEach(id=>$(id).addEventListener(id==="search"||id==="myScore"?"input":"change",render));
