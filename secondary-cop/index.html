@@ -98,7 +98,7 @@ function render(){
    '<td><button class="details" data-detail="'+s.id+'">View history</button></td>';
   tbody.appendChild(tr);
  });
- $("schoolTotal").textContent=schools.length;
+ // School count remains available in the data; its display is intentionally omitted.
  $("rows").querySelectorAll("[data-save]").forEach(b=>b.onclick=()=>toggleSave(Number(b.dataset.save)));
  $("rows").querySelectorAll("[data-compare]").forEach(b=>b.onchange=()=>toggleCompare(Number(b.dataset.compare),b.checked));
  $("rows").querySelectorAll("[data-detail]").forEach(b=>b.onclick=()=>showDetails(Number(b.dataset.detail)));
