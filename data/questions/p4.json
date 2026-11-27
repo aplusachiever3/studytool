@@ -1,7 +1,7 @@
 {
   "grade": "P4",
-  "version": "1.0.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "version": "1.1.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P4-VOC-0001",
@@ -66,6 +66,153 @@
       ],
       "source_type": "original",
       "review_status": "sample"
+    },
+    {
+      "id": "P4-VOC-0002",
+      "grade": "P4",
+      "strand": "Vocabulary",
+      "topic": "Collocations",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Choose the word that completes the phrase: ___ rain.",
+      "options": [
+        "Heavy",
+        "Strongly",
+        "Tall"
+      ],
+      "answer_index": 0,
+      "explanation": "“Heavy rain” is the natural collocation.",
+      "tags": [
+        "collocations"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-VOC-0003",
+      "grade": "P4",
+      "strand": "Vocabulary",
+      "topic": "Meaning in context",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "The instructions were precise, so everyone knew exactly what to do. What does “precise” mean?",
+      "options": [
+        "Clear and exact",
+        "Long and confusing",
+        "Funny and unusual"
+      ],
+      "answer_index": 0,
+      "explanation": "“Exactly” in the sentence signals the meaning of precise.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-GRA-0004",
+      "grade": "P4",
+      "strand": "Grammar",
+      "topic": "Tense consistency",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "When the bell rang, the pupils ___ their books.",
+      "options": [
+        "pack",
+        "were packing",
+        "will pack"
+      ],
+      "answer_index": 1,
+      "explanation": "The past continuous describes an action in progress when the bell rang.",
+      "tags": [
+        "tenses"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-GRA-0005",
+      "grade": "P4",
+      "strand": "Grammar",
+      "topic": "Conjunctions",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Although the path was steep, the hikers ___ to the top.",
+      "options": [
+        "reached",
+        "reach",
+        "reaching"
+      ],
+      "answer_index": 0,
+      "explanation": "“Although” introduces a contrast; “reached” keeps the past tense.",
+      "tags": [
+        "conjunctions"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-REA-0006",
+      "grade": "P4",
+      "strand": "Reading",
+      "topic": "Writer's purpose",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "A poster lists ways to save water at home and urges readers to turn off taps. What is its main purpose?",
+      "options": [
+        "To persuade people to save water",
+        "To tell a fairy tale",
+        "To describe a holiday"
+      ],
+      "answer_index": 0,
+      "explanation": "The advice and urging language aim to persuade readers.",
+      "tags": [
+        "purpose"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-REA-0007",
+      "grade": "P4",
+      "strand": "Reading",
+      "topic": "Evidence-based inference",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Amir checked the recipe twice before adding the flour. What does this suggest?",
+      "options": [
+        "He wanted to follow the instructions carefully",
+        "He disliked baking",
+        "He had finished cooking"
+      ],
+      "answer_index": 0,
+      "explanation": "Checking the recipe suggests care and attention.",
+      "tags": [
+        "inference_evidence"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P4-REA-0008",
+      "grade": "P4",
+      "strand": "Reading",
+      "topic": "Text structure",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "A text describes a problem with litter, then gives three ways to reduce it. How is the text organised?",
+      "options": [
+        "Problem and solutions",
+        "Question and answer only",
+        "Events in time order"
+      ],
+      "answer_index": 0,
+      "explanation": "It presents an issue followed by ways to address it.",
+      "tags": [
+        "text_structure"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
     }
   ]
 }
