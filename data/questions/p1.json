@@ -1,7 +1,7 @@
 {
   "grade": "P1",
-  "version": "1.3.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions. Topic selection is informed by the SG Exam P1 English paper index and its listed paper categories. All question wording and examples are independently authored. Added items remain draft and require editorial review.",
+  "version": "1.4.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. Topic selection is informed by the SG Exam P1 English paper index and its listed paper categories. All question wording and examples are independently authored. Added items remain draft and require editorial review. Additional P1 practice items added in v1.4.0 are original draft items informed by topic categories listed in SG Exam's P1 English index; not copied from the papers and not official MOE/SEAB questions.",
   "questions": [
     {
       "id": "P1-VOC-0001",
@@ -708,6 +708,234 @@
       ],
       "source_type": "original",
       "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0015",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Commonly confused words",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the correct word: “I can ___ the birds singing.”",
+      "options": [
+        "hear",
+        "here",
+        "hair"
+      ],
+      "answer_index": 0,
+      "explanation": "“Hear” means to listen to or notice a sound.",
+      "tags": [
+        "word_choice",
+        "homophones"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0016",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Adjectives",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word best describes a pillow that is nice to sleep on?",
+      "options": [
+        "Soft",
+        "Sharp",
+        "Empty"
+      ],
+      "answer_index": 0,
+      "explanation": "“Soft” describes something that is comfortable to touch.",
+      "tags": [
+        "adjectives",
+        "describing_words"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0017",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Word meaning in context",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "The boy was eager to open his birthday present. What does “eager” mean?",
+      "options": [
+        "Excited and ready",
+        "Angry and upset",
+        "Tired and sleepy"
+      ],
+      "answer_index": 0,
+      "explanation": "“Eager” means very keen or excited to do something.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0021",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Pronouns",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Mei and I are friends. ___ walk to school together.",
+      "options": [
+        "We",
+        "Us",
+        "They"
+      ],
+      "answer_index": 0,
+      "explanation": "Use “we” as the subject pronoun for Mei and I.",
+      "tags": [
+        "pronouns",
+        "subject_pronouns"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0022",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Present tense",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Every morning, Dad ___ breakfast for us.",
+      "options": [
+        "cook",
+        "cooks",
+        "cooking"
+      ],
+      "answer_index": 1,
+      "explanation": "Use “cooks” with the singular subject “Dad” in the simple present tense.",
+      "tags": [
+        "simple_present",
+        "subject_verb_agreement"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0023",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Conjunctions",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "I wanted to play outside, ___ it was raining.",
+      "options": [
+        "but",
+        "and",
+        "or"
+      ],
+      "answer_index": 0,
+      "explanation": "“But” joins two ideas that contrast.",
+      "tags": [
+        "conjunctions",
+        "sentence_completion"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0024",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Punctuation",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which sentence uses the comma correctly?",
+      "options": [
+        "I bought apples, oranges and pears.",
+        "I bought, apples oranges and pears.",
+        "I, bought apples oranges and pears."
+      ],
+      "answer_index": 0,
+      "explanation": "Use commas to separate items in a list.",
+      "tags": [
+        "punctuation",
+        "commas"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0013",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Cause and effect",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: “The floor was wet, so Ava walked slowly.” Why did Ava walk slowly?",
+      "options": [
+        "The floor was wet.",
+        "She was late.",
+        "She wanted to run."
+      ],
+      "answer_index": 0,
+      "explanation": "The word “so” introduces the result of the wet floor.",
+      "tags": [
+        "cause_and_effect"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0014",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Reference words",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: “Noah found a shell. He put it in his pocket.” What does “it” refer to?",
+      "options": [
+        "Noah",
+        "The shell",
+        "His pocket"
+      ],
+      "answer_index": 1,
+      "explanation": "“It” refers to the shell mentioned in the first sentence.",
+      "tags": [
+        "reference_words",
+        "pronoun_reference"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0015",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Main idea",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: “Lily waters the plants. She pulls out weeds and puts dry leaves into the compost bin.” What is Lily doing?",
+      "options": [
+        "Looking after the garden",
+        "Buying new toys",
+        "Preparing dinner"
+      ],
+      "answer_index": 0,
+      "explanation": "All three actions show that Lily is caring for the garden.",
+      "tags": [
+        "main_idea",
+        "retrieve_information"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill category informed by the SG Exam P1 English paper index (vocabulary/grammar, editing, and reading practice); no examination question wording is reproduced.",
       "review_status": "draft"
     }
   ]
