@@ -1,7 +1,7 @@
 {
   "grade": "P1",
-  "version": "1.0.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "version": "1.1.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P1-VOC-0001",
@@ -67,6 +67,153 @@
       ],
       "source_type": "original",
       "review_status": "sample"
+    },
+    {
+      "id": "P1-VOC-0002",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Everyday verbs",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word tells what a bird can do?",
+      "options": [
+        "Fly",
+        "Yellow",
+        "Nest"
+      ],
+      "answer_index": 0,
+      "explanation": "“Fly” names an action.",
+      "tags": [
+        "actions"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0003",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Opposites",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word means the opposite of “hot”?",
+      "options": [
+        "Warm",
+        "Cold",
+        "Bright"
+      ],
+      "answer_index": 1,
+      "explanation": "“Cold” is the opposite of “hot”.",
+      "tags": [
+        "antonyms"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0004",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Pronouns",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Mum is kind. ___ helps me read.",
+      "options": [
+        "He",
+        "She",
+        "They"
+      ],
+      "answer_index": 1,
+      "explanation": "Use “she” for Mum in this sentence.",
+      "tags": [
+        "pronouns"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0005",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Articles",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "I saw ___ elephant at the zoo.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "answer_index": 1,
+      "explanation": "Use “an” before a vowel sound.",
+      "tags": [
+        "articles"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0006",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Explicit details",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Ben has two crayons, a red one and a blue one. How many crayons does Ben have?",
+      "options": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "answer_index": 1,
+      "explanation": "The sentence says Ben has two crayons.",
+      "tags": [
+        "retrieve_information"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0007",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Sequence",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "First, wash the apple. Next, cut it. Last, put it on a plate. What should you do after washing it?",
+      "options": [
+        "Eat it",
+        "Cut it",
+        "Buy it"
+      ],
+      "answer_index": 1,
+      "explanation": "The next step after washing is cutting.",
+      "tags": [
+        "sequence"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0008",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Picture-free inference",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "A girl is holding a wet umbrella and wiping her shoes at the door. What is most likely happening outside?",
+      "options": [
+        "It is raining",
+        "It is snowing",
+        "It is very hot"
+      ],
+      "answer_index": 0,
+      "explanation": "A wet umbrella suggests rainy weather.",
+      "tags": [
+        "inference"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
     }
   ]
 }
