@@ -1,7 +1,7 @@
 {
   "grade": "P3",
-  "version": "1.0.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "version": "1.1.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P3-VOC-0001",
@@ -65,6 +65,153 @@
       ],
       "source_type": "original",
       "review_status": "sample"
+    },
+    {
+      "id": "P3-VOC-0002",
+      "grade": "P3",
+      "strand": "Vocabulary",
+      "topic": "Context clues",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "The puppy was timid. It hid behind its owner when strangers came near. What does “timid” mean?",
+      "options": [
+        "Shy or nervous",
+        "Very noisy",
+        "Always hungry"
+      ],
+      "answer_index": 0,
+      "explanation": "Hiding from strangers suggests the puppy is shy or nervous.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-VOC-0003",
+      "grade": "P3",
+      "strand": "Vocabulary",
+      "topic": "Prefixes",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "What does the prefix “un-” mean in “unhappy”?",
+      "options": [
+        "Not",
+        "Again",
+        "Before"
+      ],
+      "answer_index": 0,
+      "explanation": "The prefix “un-” can mean “not”.",
+      "tags": [
+        "prefixes"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-GRA-0004",
+      "grade": "P3",
+      "strand": "Grammar",
+      "topic": "Subject-verb agreement",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "The basket of apples ___ on the table.",
+      "options": [
+        "are",
+        "is",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "The subject is “basket”, which is singular.",
+      "tags": [
+        "agreement"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-GRA-0005",
+      "grade": "P3",
+      "strand": "Grammar",
+      "topic": "Connectors",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "I wanted to play outside, ___ it was raining.",
+      "options": [
+        "but",
+        "because",
+        "so"
+      ],
+      "answer_index": 0,
+      "explanation": "“But” shows a contrast between wanting to play and the rain.",
+      "tags": [
+        "connectors"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-REA-0006",
+      "grade": "P3",
+      "strand": "Reading",
+      "topic": "Inference",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Jia looked at the clock, packed her bag quickly and ran to the bus stop. What can you infer?",
+      "options": [
+        "She may be late",
+        "She is going swimming",
+        "She has lost her bag"
+      ],
+      "answer_index": 0,
+      "explanation": "Her hurried actions suggest she may be late.",
+      "tags": [
+        "inference"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-REA-0007",
+      "grade": "P3",
+      "strand": "Reading",
+      "topic": "Reference words",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "“The children found a kitten. They took it to a nearby shelter.” Who does “They” refer to?",
+      "options": [
+        "The children",
+        "The kitten",
+        "The shelter staff"
+      ],
+      "answer_index": 0,
+      "explanation": "“They” refers to the children who found the kitten.",
+      "tags": [
+        "reference_words"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P3-REA-0008",
+      "grade": "P3",
+      "strand": "Reading",
+      "topic": "Main idea",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "A passage explains how bees collect nectar and help flowers produce seeds. What is the most suitable main idea?",
+      "options": [
+        "How bees help plants",
+        "How to keep a pet",
+        "Why flowers need paint"
+      ],
+      "answer_index": 0,
+      "explanation": "The details focus on the role bees play in helping plants.",
+      "tags": [
+        "main_idea"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
     }
   ]
 }
