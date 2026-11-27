@@ -1,7 +1,7 @@
 {
   "grade": "P1",
-  "version": "1.1.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
+  "version": "1.2.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. Selected P1 skill areas were informed by the SG Exam P1 English paper index and publicly indexed paper descriptions; all added wording and examples are independently authored. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P1-VOC-0001",
@@ -213,6 +213,270 @@
         "inference"
       ],
       "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0009",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Pronouns",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Look at the sentence: 'Asha is my sister. ___ likes to draw.' Which word completes it?",
+      "options": [
+        "He",
+        "She",
+        "They"
+      ],
+      "answer_index": 1,
+      "explanation": "Use “she” when referring to Asha, a girl.",
+      "tags": [
+        "pronouns"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0010",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Be verbs",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "The children ___ playing in the garden.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "answer_index": 2,
+      "explanation": "Use “are” with the plural subject “the children”.",
+      "tags": [
+        "subject_verb_agreement"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0011",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Be verbs",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "I ___ ready for school.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer_index": 0,
+      "explanation": "Use “am” with “I”.",
+      "tags": [
+        "subject_verb_agreement"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0012",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Articles",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "We saw ___ owl in the tree.",
+      "options": [
+        "a",
+        "an",
+        "are"
+      ],
+      "answer_index": 1,
+      "explanation": "Use “an” before the vowel sound at the start of “owl”.",
+      "tags": [
+        "articles"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0013",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Articles",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Please close ___ door.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "answer_index": 2,
+      "explanation": "“The” points to a particular door that the speaker and listener can identify.",
+      "tags": [
+        "articles"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0009",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Nouns",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word names a place?",
+      "options": [
+        "Market",
+        "Jump",
+        "Soft"
+      ],
+      "answer_index": 0,
+      "explanation": "A market is a place. “Jump” is an action and “soft” describes something.",
+      "tags": [
+        "nouns"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0010",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Action words",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word tells what the boy is doing? 'The boy runs to the bus.'",
+      "options": [
+        "Boy",
+        "Runs",
+        "Bus"
+      ],
+      "answer_index": 1,
+      "explanation": "“Runs” tells the action.",
+      "tags": [
+        "verbs"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0011",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Word meaning in context",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "The puppy is tiny. What does “tiny” mean?",
+      "options": [
+        "Very small",
+        "Very noisy",
+        "Very fast"
+      ],
+      "answer_index": 0,
+      "explanation": "“Tiny” means very small.",
+      "tags": [
+        "word_meaning"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0009",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Explicit details",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: 'Kai puts three books into his bag. He takes a pencil too.' How many books does Kai put into his bag?",
+      "options": [
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer_index": 1,
+      "explanation": "The passage says that Kai puts three books into his bag.",
+      "tags": [
+        "retrieve_information"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0010",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Simple inference",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: 'Lina puts on her raincoat and takes an umbrella before leaving home.' What is the weather most likely like?",
+      "options": [
+        "Rainy",
+        "Very windy",
+        "Very hot"
+      ],
+      "answer_index": 0,
+      "explanation": "A raincoat and umbrella suggest that it may be raining.",
+      "tags": [
+        "inference"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0014",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Sentence order",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the words in the correct order.",
+      "options": [
+        "The dog is hungry.",
+        "Hungry dog the is.",
+        "Is the hungry dog."
+      ],
+      "answer_index": 0,
+      "explanation": "A simple statement usually follows subject + verb + complement.",
+      "tags": [
+        "word_order"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0012",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Opposites",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word is the opposite of “empty”?",
+      "options": [
+        "Full",
+        "Clean",
+        "Open"
+      ],
+      "answer_index": 0,
+      "explanation": "“Full” is the opposite of “empty”.",
+      "tags": [
+        "antonyms"
+      ],
+      "source_type": "original",
+      "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
       "review_status": "draft"
     }
   ]
