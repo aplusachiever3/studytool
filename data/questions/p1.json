@@ -1,7 +1,7 @@
 {
   "grade": "P1",
-  "version": "1.2.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions. Selected P1 skill areas were informed by the SG Exam P1 English paper index and publicly indexed paper descriptions; all added wording and examples are independently authored. New items are draft and require editorial review before publication.",
+  "version": "1.3.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. Topic selection is informed by the SG Exam P1 English paper index and its listed paper categories. All question wording and examples are independently authored. Added items remain draft and require editorial review.",
   "questions": [
     {
       "id": "P1-VOC-0001",
@@ -477,6 +477,237 @@
       ],
       "source_type": "original",
       "source_reference": "Skill selection informed by SG Exam P1 English paper index and the publicly indexed 2025 Henry Park P1 English review; wording and examples independently authored.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0013",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Spelling and word recognition",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which word is spelt correctly?",
+      "options": [
+        "Frend",
+        "Friend",
+        "Freind"
+      ],
+      "answer_index": 1,
+      "explanation": "“Friend” is the correct spelling. Look carefully at the order of the letters i and e.",
+      "tags": [
+        "spelling",
+        "word_recognition"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-VOC-0014",
+      "grade": "P1",
+      "strand": "Vocabulary",
+      "topic": "Word meaning in context",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "The soup is hot. Which word has the opposite meaning of “hot”?",
+      "options": [
+        "Cold",
+        "Warm",
+        "Spicy"
+      ],
+      "answer_index": 0,
+      "explanation": "“Cold” is the opposite of “hot”.",
+      "tags": [
+        "antonyms",
+        "word_meaning"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0015",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Punctuation",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the sentence with the correct punctuation.",
+      "options": [
+        "Where is my bag.",
+        "Where is my bag?",
+        "Where is my bag!"
+      ],
+      "answer_index": 1,
+      "explanation": "A direct question ends with a question mark.",
+      "tags": [
+        "punctuation",
+        "question_mark"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0016",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Capital letters and full stops",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Which sentence is written correctly?",
+      "options": [
+        "my brother likes milk.",
+        "My brother likes milk.",
+        "My brother likes milk"
+      ],
+      "answer_index": 1,
+      "explanation": "Begin a sentence with a capital letter and end a statement with a full stop.",
+      "tags": [
+        "editing",
+        "capitalisation",
+        "full_stop"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0017",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Prepositions",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "The shoes are ___ the bed. You cannot see them because they are below it.",
+      "options": [
+        "on",
+        "under",
+        "in"
+      ],
+      "answer_index": 1,
+      "explanation": "“Under” tells us that the shoes are below the bed.",
+      "tags": [
+        "prepositions",
+        "spatial_words"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0018",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Singular and plural nouns",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "There are three ___ on the table.",
+      "options": [
+        "book",
+        "books",
+        "bookes"
+      ],
+      "answer_index": 1,
+      "explanation": "Use the plural form “books” after the number three.",
+      "tags": [
+        "plurals",
+        "nouns"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0019",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Word order",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the sentence in the correct word order.",
+      "options": [
+        "The girl reads a book.",
+        "Reads the girl a book.",
+        "A book the girl reads?"
+      ],
+      "answer_index": 0,
+      "explanation": "A simple statement usually places the subject before the verb: “The girl reads…”.",
+      "tags": [
+        "word_order",
+        "sentence_structure"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0011",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Sequence and instructions",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: “First, put on your socks. Then, put on your shoes.” What should you do first?",
+      "options": [
+        "Put on your shoes.",
+        "Put on your socks.",
+        "Take off your socks."
+      ],
+      "answer_index": 1,
+      "explanation": "The word “First” tells us the first action.",
+      "tags": [
+        "sequence",
+        "instructions"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-REA-0012",
+      "grade": "P1",
+      "strand": "Reading",
+      "topic": "Simple inference",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Read: “Tom is yawning and rubbing his eyes. He puts on his pyjamas.” What is Tom most likely going to do?",
+      "options": [
+        "Go to sleep",
+        "Play football",
+        "Eat lunch"
+      ],
+      "answer_index": 0,
+      "explanation": "Yawning, rubbing his eyes and putting on pyjamas suggest that Tom is getting ready for bed.",
+      "tags": [
+        "inference",
+        "context_clues"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
+      "review_status": "draft"
+    },
+    {
+      "id": "P1-GRA-0020",
+      "grade": "P1",
+      "strand": "Grammar",
+      "topic": "Joining ideas with and",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Choose the best way to join the two ideas: “I have a pencil. I have an eraser.”",
+      "options": [
+        "I have a pencil and an eraser.",
+        "I have a pencil but an eraser.",
+        "I have a pencil because an eraser."
+      ],
+      "answer_index": 0,
+      "explanation": "Use “and” to join two related things in a list.",
+      "tags": [
+        "conjunctions",
+        "sentence_combining"
+      ],
+      "source_type": "original",
+      "source_reference": "Original practice item. Skill selection informed by the SG Exam P1 English paper index, which lists P1 materials on spelling, editing, word order, vocabulary and grammar, cloze, and synthesis; no source question wording is reproduced.",
       "review_status": "draft"
     }
   ]
