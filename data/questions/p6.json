@@ -1,7 +1,7 @@
 {
   "grade": "P6",
-  "version": "1.0.0",
-  "source_note": "Original PSLE-informed demonstration practice; not official MOE/SEAB questions.",
+  "version": "1.1.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P6-VOC-0001",
@@ -68,6 +68,153 @@
       ],
       "source_type": "original",
       "review_status": "sample"
+    },
+    {
+      "id": "P6-VOC-0002",
+      "grade": "P6",
+      "strand": "Vocabulary",
+      "topic": "Contextual meaning",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The volunteers worked tirelessly throughout the event. What does “tirelessly” suggest?",
+      "options": [
+        "Without showing signs of stopping due to tiredness",
+        "Only for a short time",
+        "Without knowing what to do"
+      ],
+      "answer_index": 0,
+      "explanation": "The word suggests continuous, energetic effort.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-VOC-0003",
+      "grade": "P6",
+      "strand": "Vocabulary",
+      "topic": "Precise expression",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The scientist made a ___ observation after recording the measurements carefully.",
+      "options": [
+        "careful",
+        "carelessly",
+        "careless"
+      ],
+      "answer_index": 0,
+      "explanation": "“Careful” is the adjective needed to describe the observation.",
+      "tags": [
+        "word_forms"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-GRA-0004",
+      "grade": "P6",
+      "strand": "Grammar",
+      "topic": "Agreement with intervening phrase",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The bouquet of roses, along with the card, ___ on the desk.",
+      "options": [
+        "are",
+        "is",
+        "were"
+      ],
+      "answer_index": 1,
+      "explanation": "The head subject “bouquet” is singular; the intervening phrase does not change it.",
+      "tags": [
+        "agreement"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-GRA-0005",
+      "grade": "P6",
+      "strand": "Grammar",
+      "topic": "Verb forms",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "By the time the guests arrived, we ___ the decorations.",
+      "options": [
+        "had finished",
+        "finish",
+        "have finish"
+      ],
+      "answer_index": 0,
+      "explanation": "The past perfect marks an action completed before another past event.",
+      "tags": [
+        "tenses"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-REA-0006",
+      "grade": "P6",
+      "strand": "Reading",
+      "topic": "Inference with evidence",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The manager praised Elena for checking every figure, even after the report was complete. What quality did Elena demonstrate?",
+      "options": [
+        "Diligence",
+        "Jealousy",
+        "Indifference"
+      ],
+      "answer_index": 0,
+      "explanation": "Checking every figure carefully shows diligence.",
+      "tags": [
+        "inference_evidence"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-REA-0007",
+      "grade": "P6",
+      "strand": "Reading",
+      "topic": "Writer's purpose and tone",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "A letter thanks residents for attending a meeting and invites them to share further suggestions. What is its main purpose?",
+      "options": [
+        "To encourage continued community participation",
+        "To warn residents about a fine",
+        "To announce a sports result"
+      ],
+      "answer_index": 0,
+      "explanation": "The invitation to share suggestions encourages participation.",
+      "tags": [
+        "purpose"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P6-REA-0008",
+      "grade": "P6",
+      "strand": "Reading",
+      "topic": "Summary",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "A passage explains that planting trees provides shade, supports wildlife and absorbs carbon dioxide. Which sentence best summarises it?",
+      "options": [
+        "Trees benefit the environment in several ways",
+        "Trees grow only in cold places",
+        "Wildlife should avoid trees"
+      ],
+      "answer_index": 0,
+      "explanation": "The sentence captures the three benefits without adding unsupported details.",
+      "tags": [
+        "summarising"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
     }
   ]
 }
