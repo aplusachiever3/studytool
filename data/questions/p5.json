@@ -1,7 +1,7 @@
 {
   "grade": "P5",
-  "version": "1.0.0",
-  "source_note": "Original demonstration practice; not official MOE/SEAB questions.",
+  "version": "1.1.0",
+  "source_note": "Original demonstration practice; not official MOE/SEAB questions. New items are draft and require editorial review before publication.",
   "questions": [
     {
       "id": "P5-VOC-0001",
@@ -66,6 +66,153 @@
       ],
       "source_type": "original",
       "review_status": "sample"
+    },
+    {
+      "id": "P5-VOC-0002",
+      "grade": "P5",
+      "strand": "Vocabulary",
+      "topic": "Nuance",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The speaker gave a “reluctant” reply and looked away. Which meaning best fits “reluctant”?",
+      "options": [
+        "Unwilling or hesitant",
+        "Excited and eager",
+        "Certain and confident"
+      ],
+      "answer_index": 0,
+      "explanation": "The context suggests the speaker was hesitant to respond.",
+      "tags": [
+        "context_clues"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-VOC-0003",
+      "grade": "P5",
+      "strand": "Vocabulary",
+      "topic": "Word choice",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The glass ornament was so ___ that we handled it carefully.",
+      "options": [
+        "fragile",
+        "ordinary",
+        "rough"
+      ],
+      "answer_index": 0,
+      "explanation": "“Fragile” means easily broken and fits the context.",
+      "tags": [
+        "precise_word_choice"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-GRA-0004",
+      "grade": "P5",
+      "strand": "Grammar",
+      "topic": "Conditionals",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "If she had left earlier, she ___ the bus.",
+      "options": [
+        "would catch",
+        "would have caught",
+        "will catch"
+      ],
+      "answer_index": 1,
+      "explanation": "The third conditional uses “would have” plus a past participle.",
+      "tags": [
+        "conditionals"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-GRA-0005",
+      "grade": "P5",
+      "strand": "Grammar",
+      "topic": "Relative clauses",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "The boy ___ won the race is my cousin.",
+      "options": [
+        "who",
+        "which",
+        "where"
+      ],
+      "answer_index": 0,
+      "explanation": "Use “who” to refer to a person.",
+      "tags": [
+        "relative_clauses"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-REA-0006",
+      "grade": "P5",
+      "strand": "Reading",
+      "topic": "Inference and motive",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Although the team was exhausted, they continued practising because the final was the next day. What motivated them?",
+      "options": [
+        "They wanted to prepare for the final",
+        "They wanted to avoid their coach",
+        "They had forgotten the time"
+      ],
+      "answer_index": 0,
+      "explanation": "The upcoming final explains why they continued practising.",
+      "tags": [
+        "inference_motive"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-REA-0007",
+      "grade": "P5",
+      "strand": "Reading",
+      "topic": "Author's purpose",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "An article compares reusable bottles with single-use plastic bottles and highlights waste reduction. What is the writer mainly trying to do?",
+      "options": [
+        "Encourage reusable bottles",
+        "Explain how to make glass",
+        "Advertise a sports event"
+      ],
+      "answer_index": 0,
+      "explanation": "The comparison and emphasis on reducing waste support reusable bottles.",
+      "tags": [
+        "purpose"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
+    },
+    {
+      "id": "P5-REA-0008",
+      "grade": "P5",
+      "strand": "Reading",
+      "topic": "Evidence selection",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "A character returned a lost wallet without taking anything. Which trait is best supported?",
+      "options": [
+        "Honesty",
+        "Impatience",
+        "Carelessness"
+      ],
+      "answer_index": 0,
+      "explanation": "Returning the wallet untouched is evidence of honesty.",
+      "tags": [
+        "evidence"
+      ],
+      "source_type": "original",
+      "review_status": "draft"
     }
   ]
 }
